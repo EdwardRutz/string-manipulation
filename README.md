@@ -1,13 +1,3 @@
-#README
-
-------------------------
-## SET-UP .GITIGNORE
-- [X] .gitignore added.
-- [ ] Run in terminal:  
-	git config --global core.excludesfile ~/.gitignore_global
-- [ ] Delete .gitignore section from README.md
-------------------------
-
 # [ ] String Manipulation
 Create a form that only accepts letters and manipulate the string.
 
