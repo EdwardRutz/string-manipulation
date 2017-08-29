@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title></title>
-			<meta charset="utf-8">
-<!-- 			<link rel="stylesheet" href="css/normalize.css">
- -->			<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<title>String Manipulation</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	
 	<body>
 		<wrapper>
 			<header>
-				<h1></h1>
+				<h1>String Manipulation</h1>
 			</header>
 			
-			
-			
+			<form>
+				<label for="string" required>Enter Letters to Be Re-Arranged:  </label>
+				<input id="wordsIn" type="text" name="string" pattern="[A-Za-z]+">
+				<input id="lettersButton" type="submit"></input>
+ 
+ 			<!--<input id="lettersButton" type="submit"> --> 			
+			</form>
+
+			<p id="domOut"></p>
+			<p id="domAlphabetical"></p>
+			<p id="domPalindrome"></p>
+
 			<footer>
 				
 			</footer>
